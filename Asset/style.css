@@ -1,0 +1,94 @@
+/* Global Layout Set-up */
+
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    /** background-color: #0499ff;  **/  
+        /** to be deleted**/ 
+        border-width: 1px;
+        border-style: solid;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+        /** to be deleted
+        border-width: 1px;
+        border-style: solid; **/ 
+  }
+  a:hover {
+    color: #0499ff;
+  }
+
+  /** Below is all for Navbar **/
+
+  .nav {
+    width: 100%;
+    background: rgb(236, 152, 152);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+        border-width: 0px 0px 2px 0px;
+        border-style: solid;
+
+  }
+  .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+        /** to be deleted
+        border-width: 1px;
+        border-style: solid; **/ 
+  }
+
+  .nav.name {
+    display: none;
+    position: fixed; 
+    left: 180px; 
+    top: 20px;
+        /** to be deleted 
+        border-width: 1px;
+        border-style: solid;**/ 
+  }
+  .nav li {
+    padding: 10px 10px 10px 10px;
+    border-color: #222;
+
+  }
+  .nav a {
+    transition: all .5s;
+  }
+
+  .first-para {
+    margin: 150px 250px 50px 250px;
+    padding: 40px 40px;
+    text-align: center;
+    background: rgb(202, 196, 196);
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .second-para {
+    margin: 50px 50px;
+    padding:40px 40px;
+    text-align: center;
+    background: rgb(202, 196, 196);
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+  }
+
